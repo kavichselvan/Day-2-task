@@ -1,0 +1,21 @@
+Question:
+
+Write a blog on difference between the document and window objects
+
+Answer:
+
+The 'document' object represents the web page that is currently loaded in the browser. It provides access to the elements and content within the page, allowing developers to manipulate the page in real-time using JavaScript. Some common properties and methods of the 'document' object include:
+
+'document.title' - returns the title of the current web page.
+'document.body' - returns the body element of the current web page.
+'document.getElementById(id)' - returns the element with the specified id attribute.
+On the other hand, the 'window' object represents the browser window that contains the current web page. It provides access to a variety of properties and methods related to the browser window, including:
+
+'window.location' - returns the current URL of the web page.
+'window.alert(message)' - displays an alert box with the specified message.
+'window.open(url)' - opens a new browser window with the specified URL.
+One key difference between the 'document' and 'window' objects is that the 'document' object is a property of the 'window' object. This means that you can access the 'document' object using the 'window.document' syntax. However, the opposite is not true - you cannot access the 'window' object using the 'document.window' syntax.
+
+Another important difference between the two objects is their scope. The 'document' object is limited to the current web page, while the 'window' object is global and can be accessed from any JavaScript code running within the browser window. This means that you can use the 'window' object to store and share data between different pages or scripts, while the 'document' object is only available within the current page.
+
+In summary, the 'document' object represents the current web page and provides access to its content, while the 'window' object represents the browser window and provides access to a variety of browser-related properties and methods. Understanding the differences between these two objects is important for writing effective JavaScript code and creating dynamic web applications.
